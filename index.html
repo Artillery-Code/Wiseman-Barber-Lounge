@@ -8,19 +8,27 @@
     <meta name="description" content="Experience premium grooming at Wisemen Barber Lounge in Lemont, IL. Classic haircuts, beard trims, and luxury grooming packages." />
     <meta name="author" content="Lovable" />
 
-    <!-- TODO: Update og:title to match your application name -->
-    <meta property="og:title" content="Lovable App" />
-    <meta property="og:description" content="Lovable Generated Project" />
+    <meta property="og:title" content="Wisemen Barber Lounge | Precision Cuts & Timeless Style" />
+    <meta property="og:description" content="Experience premium grooming at Wisemen Barber Lounge in Lemont, IL. Classic haircuts, beard trims, and luxury grooming packages." />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <meta property="og:url" content="https://artilleryholdings.com" />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@Lovable" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    <meta name="twitter:title" content="Wisemen Barber Lounge | Precision Cuts & Timeless Style" />
+    <meta name="twitter:description" content="Experience premium grooming at Wisemen Barber Lounge in Lemont, IL. Classic haircuts, beard trims, and luxury grooming packages." />
   </head>
 
   <body>
     <div id="root"></div>
+    <script>
+      // Restore the path encoded by 404.html so React Router sees the correct URL.
+      (function () {
+        var p = new URLSearchParams(window.location.search).get("p");
+        if (p) {
+          window.history.replaceState(null, "", decodeURIComponent(p));
+        }
+      })();
+    </script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

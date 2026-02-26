@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wisemen Barber Lounge</title>
+    <script>
+      // Redirect all GitHub Pages 404s back to the SPA so React Router can handle them.
+      // Encodes the path as a query parameter, then index.html reads it and restores the URL.
+      var path = window.location.pathname;
+      window.location.replace(
+        window.location.origin + "/?p=" + encodeURIComponent(path)
+      );
+    </script>
+  </head>
+  <body></body>
+</html>
