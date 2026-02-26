@@ -20,7 +20,7 @@ const BookingSection = () => {
           <div className="gold-divider mx-auto mb-8" />
           <p className="text-foreground/60 font-body max-w-xl mx-auto mb-10">
             Schedule your visit today and experience premium grooming at Wisemen
-            Barbershop.
+            Barber Lounge.
           </p>
 
           <a
