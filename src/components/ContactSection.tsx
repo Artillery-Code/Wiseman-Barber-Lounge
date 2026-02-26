@@ -2,14 +2,14 @@ import { motion } from "framer-motion";
 import { MapPin, Phone, Clock } from "lucide-react";
 
 const hours = [
-  { day: "Monday", time: "8:00 AM - 10:00 PM" },
-  { day: "Tuesday", time: "8:00 AM - 10:00 PM" },
-  { day: "Wednesday", time: "8:00 AM - 10:00 PM" },
-  { day: "Thursday", time: "8:00 AM - 10:00 PM" },
-  { day: "Friday", time: "8:00 AM - 10:00 PM" },
-  { day: "Saturday", time: "8:00 AM - 10:00 PM" },
-  { day: "Sunday", time: "Closed" },
-];
+{ day: "Monday", time: "8:00 AM - 10:00 PM" },
+{ day: "Tuesday", time: "8:00 AM - 10:00 PM" },
+{ day: "Wednesday", time: "8:00 AM - 10:00 PM" },
+{ day: "Thursday", time: "8:00 AM - 10:00 PM" },
+{ day: "Friday", time: "8:00 AM - 10:00 PM" },
+{ day: "Saturday", time: "8:00 AM - 10:00 PM" },
+{ day: "Sunday", time: "Closed" }];
+
 
 const ContactSection = () => {
   return (
@@ -20,8 +20,8 @@ const ContactSection = () => {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="text-center mb-16"
-        >
+          className="text-center mb-16">
+
           <p className="text-sm font-body tracking-[0.3em] text-gold uppercase mb-4">
             Visit Us
           </p>
@@ -38,12 +38,12 @@ const ContactSection = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="text-center"
-          >
+            className="text-center">
+
             <MapPin className="w-7 h-7 text-gold mx-auto mb-4" />
             <h3 className="font-display text-xl text-foreground mb-3">Address</h3>
-            <p className="text-foreground/60 font-body">
-              1243 State St
+            <p className="text-foreground/60 font-body">12932 LaGrange Rd,
+Palos Park, IL 60464
               <br />
               Lemont, IL 60439
             </p>
@@ -55,15 +55,15 @@ const ContactSection = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.1 }}
-            className="text-center"
-          >
+            className="text-center">
+
             <Phone className="w-7 h-7 text-gold mx-auto mb-4" />
             <h3 className="font-display text-xl text-foreground mb-3">Phone</h3>
             <a
               href="tel:+17082629636"
-              className="text-foreground/60 font-body hover:text-gold transition-colors"
-            >
-              (708) 262-9636
+              className="text-foreground/60 font-body hover:text-gold transition-colors">(708) 608-8166
+
+
             </a>
           </motion.div>
 
@@ -73,28 +73,28 @@ const ContactSection = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-center"
-          >
+            className="text-center">
+
             <Clock className="w-7 h-7 text-gold mx-auto mb-4" />
             <h3 className="font-display text-xl text-foreground mb-3">
               Business Hours
             </h3>
             <div className="space-y-1">
-              {hours.map((h) => (
-                <div
-                  key={h.day}
-                  className="flex justify-between text-sm font-body max-w-[220px] mx-auto"
-                >
+              {hours.map((h) =>
+              <div
+                key={h.day}
+                className="flex justify-between text-sm font-body max-w-[220px] mx-auto">
+
                   <span className="text-foreground/70">{h.day}</span>
                   <span className="text-foreground/50">{h.time}</span>
                 </div>
-              ))}
+              )}
             </div>
           </motion.div>
         </div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default ContactSection;

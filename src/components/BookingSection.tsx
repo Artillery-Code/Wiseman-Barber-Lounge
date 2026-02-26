@@ -9,8 +9,8 @@ const BookingSection = () => {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.8 }}
-        >
+          transition={{ duration: 0.8 }}>
+
           <p className="text-sm font-body tracking-[0.3em] text-gold uppercase mb-4">
             Reserve Your Spot
           </p>
@@ -27,8 +27,8 @@ const BookingSection = () => {
             href="https://wise.bookedby.com/search-list-view"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block px-10 py-4 bg-primary text-primary-foreground font-body text-sm tracking-widest uppercase hover:bg-gold-dark transition-colors mb-6"
-          >
+            className="inline-block px-10 py-4 bg-primary text-primary-foreground font-body text-sm tracking-widest uppercase hover:bg-gold-dark transition-colors mb-6 font-bold">
+
             Book Appointment
           </a>
 
@@ -38,8 +38,8 @@ const BookingSection = () => {
           </div>
         </motion.div>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default BookingSection;

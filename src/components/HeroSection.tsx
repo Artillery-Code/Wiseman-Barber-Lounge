@@ -67,7 +67,7 @@ const HeroSection = () => {
             href="https://wise.bookedby.com/search-list-view"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-8 py-3 bg-primary text-primary-foreground font-body text-sm tracking-widest uppercase hover:bg-gold-dark transition-colors">
+            className="px-8 py-3 bg-primary text-primary-foreground font-body text-sm tracking-widest uppercase hover:bg-gold-dark transition-colors font-bold">
 
             Book Appointment
           </a>
