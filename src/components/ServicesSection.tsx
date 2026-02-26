@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { Scissors } from "lucide-react";
 
 const services = [
   { name: "Wisemen Package", price: "$50", desc: "Haircut, beard trim, hot towel shave, and scalp massage", premium: true },
@@ -41,23 +42,25 @@ const ServicesSection = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.6, delay: i * 0.1 }}
-              className={`p-6 border transition-colors ${
+              className={`relative p-6 border transition-colors ${
                 s.premium
                   ? "border-gold bg-surface-light"
                   : "border-border bg-surface-dark hover:border-gold-muted"
               }`}
             >
               {s.premium && (
-                <span className="inline-block text-xs font-body tracking-widest text-gold uppercase mb-2">
+                <span className="absolute -top-3 left-1/2 -translate-x-1/2 inline-flex items-center gap-1.5 px-3 py-1 bg-gold text-background text-xs font-body font-bold tracking-widest uppercase rounded-sm">
+                  <Scissors className="w-3 h-3" />
                   Premium
                 </span>
               )}
-              <div className="flex items-baseline justify-between mb-3">
-                <h3 className="font-display text-lg text-foreground">{s.name}</h3>
-                <span className="font-display text-2xl text-gold ml-4 shrink-0">
+              <div className="flex items-center justify-between mb-4">
+                <Scissors className="w-6 h-6 text-gold/60" />
+                <span className="font-display text-2xl text-gold">
                   {s.price}
                 </span>
               </div>
+              <h3 className="font-display text-lg text-foreground mb-2">{s.name}</h3>
               <p className="text-sm text-foreground/60 font-body">{s.desc}</p>
             </motion.div>
           ))}
