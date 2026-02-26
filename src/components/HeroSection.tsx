@@ -27,7 +27,7 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-sm font-body tracking-[0.3em] text-gold-light mb-6 uppercase">
 
-          Precision Cuts • Timeless Style
+          Grooming with a Wise Touch
         </motion.p>
 
         <motion.h1
