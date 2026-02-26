@@ -64,7 +64,7 @@ const HeroSection = () => {
           className="flex flex-col sm:flex-row gap-4 justify-center">
 
           <a
-            href="https://wise.bookedby.com/search-list-view"
+            href="https://wbl.bookedby.com/search-list-view"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-3 bg-primary text-primary-foreground font-body text-sm tracking-widest uppercase hover:bg-gold-dark transition-colors font-bold">

@@ -43,7 +43,7 @@ const Navbar = () => {
             </a>
           )}
           <a
-            href="https://wise.bookedby.com/search-list-view"
+            href="https://wbl.bookedby.com/search-list-view"
             target="_blank"
             rel="noopener noreferrer"
             className="px-5 py-2 text-sm font-body tracking-widest bg-primary text-primary-foreground hover:bg-gold-dark transition-colors font-bold">
@@ -75,7 +75,7 @@ const Navbar = () => {
             </a>
         )}
           <a
-          href="https://wise.bookedby.com/search-list-view"
+          href="https://wbl.bookedby.com/search-list-view"
           target="_blank"
           rel="noopener noreferrer"
           className="block text-center px-5 py-2 text-sm font-body tracking-widest bg-primary text-primary-foreground">
