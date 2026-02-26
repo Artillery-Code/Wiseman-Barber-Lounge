@@ -45,7 +45,7 @@ const ServicesSection = () => {
               className={`relative p-6 border transition-colors ${
                 s.premium
                   ? "border-gold bg-surface-light"
-                  : "border-border bg-surface-dark hover:border-gold-muted"
+                  : "border-border bg-surface-dark"
               }`}
             >
               {s.premium && (
