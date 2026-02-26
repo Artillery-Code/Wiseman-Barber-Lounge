@@ -27,7 +27,7 @@ const Navbar = () => {
         <a href="#" className="flex items-center gap-2">
           <Scissors className="w-5 h-5 text-gold" />
           <span className="font-display text-lg text-gold tracking-wide">
-            Wisemen Barbershop
+            Wisemen Barber Lounge
           </span>
         </a>
 

@@ -36,7 +36,7 @@ const AboutSection = () => {
           className="max-w-3xl mx-auto space-y-6 text-foreground/70 font-body text-center mb-20"
         >
           <p>
-            At Wisemen Barbershop, we believe a haircut is more than just a
+            At Wisemen Barber Lounge, we believe a haircut is more than just a
             service — it's an experience. Our master barbers bring years of
             expertise and passion to every appointment, ensuring you leave
             looking and feeling your absolute best.
