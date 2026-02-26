@@ -71,12 +71,6 @@ const HeroSection = () => {
 
             Book Appointment
           </a>
-          <a
-            href="#services"
-            className="px-8 py-3 border border-gold text-gold font-body text-sm tracking-widest uppercase hover:bg-gold/10 transition-colors">
-
-            View Services
-          </a>
         </motion.div>
       </div>
 
