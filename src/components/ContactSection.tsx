@@ -42,8 +42,8 @@ const ContactSection = () => {
 
             <MapPin className="w-7 h-7 text-gold mx-auto mb-4" />
             <h3 className="font-display text-xl text-foreground mb-3">Address</h3>
-            <p className="text-foreground/60 font-body">12932 LaGrange Rd,
-Palos Park, IL 60464
+            <p className="text-foreground/60 font-body">12932 LaGrange Rd, Palos Park, IL 60464
+
               <br />
               Lemont, IL 60439
             </p>
