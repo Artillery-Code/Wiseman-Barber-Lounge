@@ -24,7 +24,7 @@ const BookingSection = () => {
           </p>
 
           <a
-            href="https://wise.bookedby.com/search-list-view"
+            href="https://wbl.bookedby.com/search-list-view"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-10 py-4 bg-primary text-primary-foreground font-body text-sm tracking-widest uppercase hover:bg-gold-dark transition-colors mb-6 font-bold">
